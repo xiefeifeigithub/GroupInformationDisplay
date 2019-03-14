@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/product/product",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/gaojingyi/gjy",
+    "pages/anyahui/ayh",
+    "pages/suoda/sd",
+    "pages/liyifeng/lyf",
+    "pages/xiefeifei/xff"
   ],
   "window": {
     "navigationBarTextStyle": "black",
