@@ -1,2 +1,6 @@
 <!--pages/product/product.wxml-->
-<text>小组成员页</text>
+<button bindtap='goToXiefeifei'>谢飞飞</button>
+<button bindtap='goToGaojingyi'>高婧怡</button>
+<button bindtap='goToAnyahui'>安亚辉</button>
+<button bindtap='goToSuoda'>索达</button>
+<button bindtap='goToLiyifeng'>李易峰</button>
