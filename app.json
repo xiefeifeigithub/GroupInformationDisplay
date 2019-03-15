@@ -7,7 +7,8 @@
     "pages/anyahui/ayh",
     "pages/suoda/sd",
     "pages/liyifeng/lyf",
-    "pages/xiefeifei/xff"
+    "pages/xiefeifei/xff",
+    "component/navigation/navigation"
   ],
   "window": {
     "navigationBarTextStyle": "black",
