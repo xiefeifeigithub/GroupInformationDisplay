@@ -5,14 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    lists: [
+      "学院", "图书馆", "校医院", "教学楼", "食堂", "浴室", "信息大厅", "操场", "保卫处", "学生处"
+    ],
+    indexId: 0,
   },
-
+  // 左侧点击事件
+  jumpIndex(e) {
+    let index = e.currentTarget.dataset.menuindex
+    let that = this
+    that.setData({
+      indexId: index
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var that = this
+    wx.getSystemInfo({
+      success: function (res) {
+        that.setData({
+          winHeight: res.windowHeight
+        });
+      }
+    });
   },
 
   /**

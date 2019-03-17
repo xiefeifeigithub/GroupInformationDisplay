@@ -1,2 +1,49 @@
 <!--pages/liyifeng/lyf.wxml-->
-<text>pages/liyifeng/lyf.wxml</text>
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  style="height:240px;width:375px"
+>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:375px" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="cfe">
+<view >李艺丰</view>
+<view >16041605</view>
+
+<!-- <view wx:if="{{show}}"><image src="/images/1.jpg"></image></view> -->
+<!-- <view>{{name}}</view> -->
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data>
+<button
+  type="primary"
+  bindtap="xianshi"
+>点击查看能力值</button>
+<view class="container1" wx:if="{{show}}">
+<text>筋力</text>
+<progress  percent="90" active />
+<text>耐久</text>
+<progress  percent="90" active/>
+<text>敏捷</text>
+<progress percent="90"  active/>
+<text>魔力</text>
+<progress percent="90"  active/>
+<text>幸运</text>
+<progress percent="90"  active/>
+</view>
+
+
+
+
+
+
+</view>
+
+
