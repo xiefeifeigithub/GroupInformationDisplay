@@ -1,2 +1,34 @@
 <!--pages/gaojingyi/gjy.wxml-->
-<text>pages/gaojingyi/gjy.wxml</text>
+<view class='backpicture' >
+
+<view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class='imagesize'>
+    <image src="gjy.jpg" mode='aspectFill' class='avatar'>  
+</image>
+</view>
+
+<text>\n</text>
+<text class="word1">个人信息</text>
+
+<text>\n</text>
+<text>\n</text>
+<text class="word2" decode="{{true}}">姓名：高婧怡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学号：16041505
+ </text>
+
+<text>\n</text>
+<text class="word2" decode="{{true}}">班级：160701&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业：计算机科学与技术
+ </text>
+
+<text>\n</text>
+<text class="word2" decode="{{true}}">生日：1998.9.24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;政治面貌：预备党员
+ </text>
+
+<text>\n</text>
+<text class="word2" decode="{{true}}">电话：18911780647
+ </text>
+
+</view>
+</view>
