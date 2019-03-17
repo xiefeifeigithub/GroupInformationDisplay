@@ -13,3 +13,4 @@
 <button class="button button1" bindtap='goToSuoda'>索达</button>
 <text>\n</text>
 <button class="button button1" bindtap='goToLiyifeng'>李艺丰</button>
+
