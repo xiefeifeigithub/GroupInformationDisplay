@@ -1,0 +1,27 @@
+/* component/navigation/navigation.wxss */
+
+.box {
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 15rpx 0;
+}
+
+.box-item-img {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.box-item-text {
+    margin: 0 auto;
+    font-size: 30rpx;
+}

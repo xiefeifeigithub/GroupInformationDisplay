@@ -1,36 +1,14 @@
+<!--component/navigation/navigation.wxml-->
 
-<!--  -->
-<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{imgUrls}}">
-      <swiper-item>
-        <image src="{{item}}" class="slide-image" />
-      </swiper-item>
-    </block>
-  </swiper>
-
-
-
-  
 <!-- 双层循环嵌套 -->
 
- 
-
 <block wx:for="{{info}}" wx:for-index="index" wx:key="{{index}}">
-
     <view class='box'>
-
         <block wx:for="{{info[index]}}" wx:for-item="second" wx:for-index="secondindex" wx:key="{{index}}">
-
             <view class='box-item' bindtap='onJumpTap' data-name='{{second.name}}'>
-
                 <image class='box-item-img' src='{{second.img}}'></image>
-
                 <text class='box-item-text'>{{second.name}}</text>
-
             </view>
-
         </block>
-
     </view>
-
 </block>
