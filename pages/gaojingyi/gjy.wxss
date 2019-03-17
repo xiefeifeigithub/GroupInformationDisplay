@@ -1,1 +1,39 @@
 /* pages/gaojingyi/gjy.wxss */
+.imagesize{
+
+  display:flex;                  
+  justify-content: center;        
+}
+.imagesize image { 
+  width:200rpx;
+  height:200rpx;
+}
+  .avatar{
+  height: 300px;
+  width: 400px;
+  border-radius: 150px;
+}
+
+.word1{
+  font-size: 50rpx;
+  color:rgb(66, 66, 66);
+  text-indent:50px;
+  text-decoration-line: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 100rpx;
+}
+.word2{
+  font-size: 35rpx;
+  color:rgb(12, 12, 12);
+  text-indent:50px;
+  margin: 70rpx;
+}
+
+.backpicture{
+  width: 100%;
+  height: 100%;
+  background: url(http://sowcar.com/t6/684/1552812277x1965165908.jpg);
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+}
