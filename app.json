@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/liyifeng/lyf",
     "pages/index/index",
     "pages/product/product",
     "pages/contact/contact",
     "pages/gaojingyi/gjy",
     "pages/anyahui/ayh",
     "pages/suoda/sd",
-    
-    "pages/xiefeifei/xff"
+    "pages/liyifeng/lyf",
+    "pages/xiefeifei/xff",
+    "component/navigation/navigation"
   ],
   "window": {
     "navigationBarTextStyle": "black",
