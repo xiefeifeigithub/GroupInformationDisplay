@@ -23,17 +23,25 @@
   margin: 100rpx;
 }
 .word2{
-  font-size: 35rpx;
+  font-size: 30rpx;
   color:rgb(12, 12, 12);
-  text-indent:50px;
-  margin: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.backpicture{
+.backColor{
+  background: linear-gradient(white,pink);
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+/*.backpicture{
   width: 100%;
   height: 100%;
   background: url(http://sowcar.com/t6/684/1552812277x1965165908.jpg);
   background-size: cover;
   position: absolute;
   z-index: 0;
-}
+}*/
