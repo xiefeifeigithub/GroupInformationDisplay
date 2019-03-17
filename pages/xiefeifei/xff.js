@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    img: "../../images/xff.jpg",
+    name: "谢飞飞",
+    intro: "新时代的搬砖匠",
+    contab: "联系方式",
+    address: "北京市朝阳区平乐园100号",
+    mobile: "18911780647",
+    email: "xiefei741000@outlook.com"
   },
 
   /**
