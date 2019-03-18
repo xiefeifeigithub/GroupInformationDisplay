@@ -130,5 +130,5 @@ Page({
     clearInterval(interval); // 清除setInterval
     time = 0;
   }
-
 })
+
