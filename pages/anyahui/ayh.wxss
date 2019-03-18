@@ -1,1 +1,57 @@
 /* pages/anyahui/ayh.wxss */
+.personal__container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.personal__back {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  width: 120%;
+  height: 200px;
+  background:#019ec7;
+  border-radius: 0 0 1000% 1000%;
+}
+
+.personal__header {
+  position: absolute;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 3px solid #019ec7;
+}
+
+.personal__body {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 50px;
+  height: auto;
+  top: 120px;
+}
+
+.personal__body-content {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: #cdcdcd .5px .5px 3px;
+  margin-bottom: 30px;
+  padding: 30px 20px;
+}
+
+.personal__body-content-row-title {
+  font-size: 15px;
+  flex: 1 0 45%;
+  color: #515151;
+}
