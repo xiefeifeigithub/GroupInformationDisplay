@@ -1,13 +1,16 @@
 {
   "pages": [
+    "pages/suoda/sd",
     "pages/index/index",
+    
     "pages/product/product",
     "pages/contact/contact",
     "pages/gaojingyi/gjy",
     "pages/anyahui/ayh",
-    "pages/suoda/sd",
+    
     "pages/liyifeng/lyf",
-    "pages/xiefeifei/xff"
+    "pages/xiefeifei/xff",
+    "component/navigation/navigation"
   ],
   "window": {
     "navigationBarTextStyle": "black",

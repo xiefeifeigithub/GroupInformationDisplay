@@ -1,2 +1,16 @@
 <!--pages/product/product.wxml-->
-<text>小组成员页</text>
+<text>\n</text>
+<view>
+<text class='wordType'>Group 2</text>
+<text>\n</text>
+</view>
+<button class="button button1" bindtap='goToXiefeifei'>谢飞飞</button>
+<text>\n</text>
+<button class="button button1" bindtap='goToGaojingyi'>高婧怡</button>
+<text>\n</text>
+<button class="button button1" bindtap='goToAnyahui'>安亚辉</button>
+<text>\n</text>
+<button class="button button1" bindtap='goToSuoda'>索达</button>
+<text>\n</text>
+<button class="button button1" bindtap='goToLiyifeng'>李艺丰</button>
+

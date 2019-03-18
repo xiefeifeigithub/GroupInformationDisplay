@@ -1,2 +1,19 @@
-<!--pages/xiefeifei/xff.wxml-->
-<text>pages/xiefeifei/xff.wxml</text>
+<!--aboutme.wxml-->
+<view class="about">
+    <view class="about-wei">
+        <view class="about-img">
+            <image src="{{img}}" class="in-img" mode="scaleToFill" ></image>
+        </view>
+        <view class='about-title'>{{title}}</view>
+    </view>
+    
+    <view class="about-content">{{intro}}</view>
+
+    <view class="about-addr">
+        <view class="about-tab">{{contab}}</view>
+        
+        <view>地址：{{address}}</view>
+        <view>联系方式：{{mobile}}</view>
+        <view>个人邮箱：{{email}}</view>
+    </view>
+</view>

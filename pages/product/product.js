@@ -35,6 +35,31 @@ Page({
   onHide: function () {
 
   },
+  goToXiefeifei: function (param) {
+    wx.navigateTo({
+      url: '/pages/xiefeifei/xff',
+    })
+  },
+  goToGaojingyi: function (param) {
+    wx.navigateTo({
+      url: '/pages/gaojingyi/gjy',
+    })
+  },
+  goToAnyahui: function (param) {
+    wx.navigateTo({
+      url: '/pages/anyahui/ayh',
+    })
+  },
+  goToSuoda: function (param) {
+    wx.navigateTo({
+      url: '/pages/suoda/sd',
+    })
+  },
+  goToLiyifeng: function (param) {
+    wx.navigateTo({
+      url: '/pages/liyifeng/lyf',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面卸载
@@ -63,4 +88,7 @@ Page({
   onShareAppMessage: function () {
 
   }
+
+ 
 })
+
