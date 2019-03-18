@@ -1,4 +1,5 @@
 <!--aboutme.wxml-->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class="about">
     <view class="about-wei">
         <view class="about-img">
@@ -16,4 +17,5 @@
         <view>联系方式：{{mobile}}</view>
         <view>个人邮箱：{{email}}</view>
     </view>
+</view>
 </view>

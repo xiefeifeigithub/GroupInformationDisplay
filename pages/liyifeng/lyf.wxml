@@ -12,6 +12,7 @@
     </swiper-item>
   </block>
 </swiper> -->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <image src="/pages/liyifeng/1.jpg" style="width:375px"></image>
 <view class="cfe">
 <view >李艺丰</view>
@@ -48,6 +49,7 @@
 
 
 
+</view>
 </view>
 
 
