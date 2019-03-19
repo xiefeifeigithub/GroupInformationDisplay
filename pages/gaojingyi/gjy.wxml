@@ -1,4 +1,5 @@
 <!--pages/gaojingyi/gjy.wxml-->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class='backColor'>
 
 <view>
@@ -28,5 +29,6 @@
 <text class="word2" >电话：18911780647</text>
 <text>\n</text>
 <text class="word2" >邮箱：gaojingyi924@outlook.com</text>
+</view>
 </view>
 </view>
