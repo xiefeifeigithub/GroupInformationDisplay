@@ -1,4 +1,5 @@
 <!-- 左侧滚动栏 -->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class='under_line'></view>
 <view style='float: left' class='left'>
   <scroll-view scroll-y scroll-with-animation scroll-left="{{scrollLength}}" class='scrollY' style='height: {{winHeight}}px'>
@@ -13,4 +14,5 @@
       </block>
     </view>
   </scroll-view>
+</view>
 </view>

@@ -16,3 +16,9 @@
   width: 300px;
   height: 200px;
 }
+
+.container2{
+
+  display: flex;
+  justify-content: space-between;
+}
