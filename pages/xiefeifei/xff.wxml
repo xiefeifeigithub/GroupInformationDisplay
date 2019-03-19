@@ -7,12 +7,17 @@
         </view>
         <view class='about-title'>{{title}}</view>
     </view>
-    
-    <view class="about-content">{{intro}}</view>
 
-    <view class="about-addr">
+    <view class="divLine"></view>
+    <view class="about-content">{{intro}}</view>
+    <view class="divLine"></view>
+
+    <view class="about-addr" >
         <view class="about-tab">{{contab}}</view>
-        
+        <view>姓名：{{name}}</view>
+        <view>学号：{{num}}</view>
+        <view>班级：{{classnum}}</view>
+        <view>学部：{{college}}</view>
         <view>地址：{{address}}</view>
         <view>联系方式：{{mobile}}</view>
         <view>个人邮箱：{{email}}</view>

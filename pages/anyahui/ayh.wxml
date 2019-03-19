@@ -3,7 +3,7 @@
 <view class="personal__container">
  <view class="personal__back"></view>
  <view class="personal__header">
-   <image class="userinfo-avatar" src="../../images/ayh.jpg"></image>
+   <image class="userinfo-avatar" src="http://m.qpic.cn/psb?/V12uW2jZ46zEwz/SmbyQcdWKIg2HaMFMFdl5S16wHDUhIqkXkTjaCf4Ypk!/b/dLYAAAAAAAAA&bo=vwO*AwAAAAARBzA!&rf=viewer_4"></image>
  </view>
    <view class="personal__body">
     <view class="personal__body-content">

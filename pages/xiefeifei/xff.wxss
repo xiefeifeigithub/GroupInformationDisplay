@@ -4,6 +4,12 @@
 .about-img{ display: block; width: 124px; height: 110px;  margin: 20px auto 0; top: 20px;}
 .in-img{ width: 200rpx; height: 200rpx;}
 .about-title{ display: inline-block; margin: 20px 0;}
-.about-content{ text-align: center; font-size: 30px; margin: 0 24px; line-height: 2;}
+.about-content
+{ text-align: center; font-size: 30px; margin: 0 24px; line-height: 2;
+background: linear-gradient(to right, red, blue);
+-webkit-background-clip: text;        
+color: transparent;
+}
 .about-tab{ margin-top: 20px;}
 .about-addr{ font-size: 16px; line-height: 2; text-indent: 2em;}
+.divLine{ background: #E0E3DA; width: 100%; height: 5rpx;}

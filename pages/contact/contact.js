@@ -9,7 +9,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    img: "https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=fd6de1c0938fa0ec7fc7630b1eac3ed3/4034970a304e251f0a77c70ba586c9177e3e5344.jpg",
+    title: "北京工业大学",
+    intro: "北京工业大学（Beijing University of Technology），简称“北工大”，创建于1960年，是一所以工为主，工、理为主的市属重点大学，国家“双一流”建设高校，国家“211工程”大学",
+    contab: "联系方式",
+    address: "北京市朝阳区平乐园100号",
+    mobile: "980924-1128",
+    email: "BJUT@outlook.com"
   },
 
   /**
