@@ -1,10 +1,11 @@
 <!--pages/gaojingyi/gjy.wxml-->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class='backColor'>
 
 <view>
 <text>\n</text>
 <view class='imagesize'>
-    <image src="gjy.jpg" mode='aspectFill' class='avatar'>  
+    <image src="http://m.qpic.cn/psb?/V12uW2jZ46zEwz/CqoEFP4l1fl6TPHiHq1t3Z8n8pDd7WIenzswGzwIADk!/b/dDcBAAAAAAAA&amp;bo=aQTTAwAAAAARF50!&amp;rf=viewer_4" mode='aspectFill' class='avatar'>  
 </image>
 </view>
 
@@ -28,5 +29,6 @@
 <text class="word2" >电话：18911780647</text>
 <text>\n</text>
 <text class="word2" >邮箱：gaojingyi924@outlook.com</text>
+</view>
 </view>
 </view>

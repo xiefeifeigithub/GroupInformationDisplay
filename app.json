@@ -1,6 +1,7 @@
 {
-  "pages": [
-    "pages/index/index",
+
+  "pages": [   
+    "pages/index/index",  
     "pages/product/product",
     "pages/contact/contact",
     "pages/gaojingyi/gjy",
@@ -12,7 +13,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "小组展示",
+    "navigationBarTitleText": "活动记录",
     "navigationBarBackgroundColor": "#fbf9fe",
     "backgroundColor": "#fbf9fe"
   },

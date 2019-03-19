@@ -1,5 +1,6 @@
 
 <!--  -->
+<view class="wrap">
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
@@ -13,7 +14,7 @@
   
 <!-- 双层循环嵌套 -->
 
- 
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 
 <block wx:for="{{info}}" wx:for-index="index" wx:key="{{index}}">
 
@@ -34,3 +35,7 @@
     </view>
 
 </block>
+</view>
+
+
+</view>

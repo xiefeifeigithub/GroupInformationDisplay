@@ -1,3 +1,29 @@
 <!--pages/anyahui/ayh.wxml-->
-<text>16010328</text>
-<text>安亚辉</text>
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
+<view class="personal__container">
+ <view class="personal__back"></view>
+ <view class="personal__header">
+   <image class="userinfo-avatar" src="http://m.qpic.cn/psb?/V12uW2jZ46zEwz/SmbyQcdWKIg2HaMFMFdl5S16wHDUhIqkXkTjaCf4Ypk!/b/dLYAAAAAAAAA&bo=vwO*AwAAAAARBzA!&rf=viewer_4"></image>
+ </view>
+   <view class="personal__body">
+    <view class="personal__body-content">
+        <view>
+        <text class="personal__body-content-row-title">学号：</text>
+        <text class="personal__body-content-row-title">1601038</text>
+        </view>
+        <view>
+         <text class="personal__body-content-row-title">姓名：</text>
+        <text class="personal__body-content-row-title">安亚辉</text>
+        </view>
+        <view>
+         <text class="personal__body-content-row-title">班级：</text>
+        <text class="personal__body-content-row-title">160701</text>
+        </view>
+        <view>
+         <text class="personal__body-content-row-title">专业：</text>
+        <text class="personal__body-content-row-title">计算机科学与技术</text>
+        </view>
+    </view>
+  </view>
+</view>
+</view>
