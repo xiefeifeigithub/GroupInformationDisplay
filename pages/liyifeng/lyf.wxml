@@ -13,19 +13,19 @@
   </block>
 </swiper> -->
 <view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
-<image src="http://m.qpic.cn/psb?/V12uW2jZ46zEwz/DGwbmXooCa9*RGKkQ4KQqVzNZO2otu3kwIvHo6JKwBI!/b/dL8AAAAAAAAA&bo=vwO*AwAAAAARFyA!&rf=viewer_4" style="width:375px"></image>
+<image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/ffu4EucndR85KOxPq0ZZbLYHeqXdFo0BphYHz0.vzkI!/r/dEkBAAAAAAAA" style="width:750rpx"></image>
 <view class="cfe">
 <view class="container2">
 <view class="item1">
-<image src="火.png" class="picture" mode="widthFix"></image>
+<image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/a6R.XZn16eHqve7dWqGhKGQI1N4xLTWVNdLQYMjscaA!/r/dDYBAAAAAAAA" class="picture" mode="widthFix"></image>
 <text class="text">人气</text>
 </view>
 <view class="item1">
-<image src="赞.png" class="picture1" mode="widthFix"></image>
+<image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/nLXARYR0HnxLwPnQ*HDPN79fLt4pLOqtJY8GdL2wJxk!/r/dLkAAAAAAAAA" class="picture1" mode="widthFix"></image>
 <text class="text">赞</text>
 </view>
 <view class="item1">
-<image src="标签.png" class="picture" mode="widthFix"></image>
+<image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/RL10Y7s0PA4MKRNwVkc0VYTPizAi9sbIUwwSuww6Guw!/r/dLYAAAAAAAAA" class="picture" mode="widthFix"></image>
 <text class="text">好友印象</text>
 </view>
 
@@ -33,27 +33,27 @@
 
 <view class="IndexList">
   <view >
-   <image src="我的.png" class="telIco" mode="widthFix"></image>
+   <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/U3Q1DZQxFzzT2gGbtlXv9GMCw2INcObX0ud3BYy21gw!/r/dL8AAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >李艺丰</text>
   </view>
   <view>
-   <image src="名片.png" class="telIco" mode="widthFix"></image>
+   <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/kHVGKHmJTBISvMmVlfkUPle*0gKC6jBI.vN1VXGqftE!/r/dLkAAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >16041605</text>
   </view>
   <view>
-   <image src="资料.png" class="telIco" mode="widthFix"></image>
+   <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/Q4oWEAsRdrwUqc9NhTPioscamiEXQwAgkfz62OEmMCw!/r/dLYAAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >计算机科学与技术</text>
   </view>
   <view  bindtap="callmeTap">
-    <image src="手机.png" class="telIco" mode="widthFix"></image>
+    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/egtNftrSyJdOLtZCb4xGWTAHd6vGwFV.kGNskkJDGhY!/r/dDEBAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >15010837296</text>
   </view>
   <view>
-   <image src="邮箱.png" class="telIco" mode="widthFix"></image>
+   <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/CrJRg8iNFxvwan18od*F7eO7OWmCRzg.3O1yl*AGPGQ!/r/dMAAAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >787339520@qq.com</text>
   </view>
    <view>
-   <image src="地址.png" class="telIco" mode="widthFix"></image>
+   <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/5dSWoYGeWsOt4UZEL1IR3eKQLjOa05WC0sOoJ5CP2qs!/r/dDYBAAAAAAAA" class="telIco" mode="widthFix"></image>
     <text >北京工业大学</text>
   </view>
 </view>
