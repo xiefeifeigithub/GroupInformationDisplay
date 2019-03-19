@@ -30,3 +30,12 @@
   color: #ccc;
   margin-right: 20rpx;
 }
+
+.about-wei{ text-align: center;}
+
+
+.about-img{ display: block; width: 124px; height: 110px;  margin: 20px auto 0; top: 20px;}
+
+.in-img{ width: 200rpx; height: 200rpx;}
+
+.about-title{ display: inline-block; margin: 20px 0; text-align: center;}
