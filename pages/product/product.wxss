@@ -1,18 +1,15 @@
 /* pages/product/product.wxss */
-.button {
-    background-color: #808080;
-    border: none;
-    color: white;
-    padding: 5px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    align-items:center;
-    justify-content: center;
-}
+/*.button{
+  background-color: #808080;
+  border: 10px;
+  color: white;
+  padding: 15px ;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  /*cursor: pointer;
+  align-items:center;}
 .button1 {border-radius: 16px;}
 .wordType{
   font-size: 60rpx;
@@ -22,4 +19,102 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/*.wordRight{
+  position: relative;
+  align-items:center;
+  display: flex;
+  flex-direction: row;
+}*/
+/*
+.flex-wrp-row {  
+  display: flex; 
+  flex-direction: row;
+} 
+.item {  
+  padding: 10rpx;  
+  position: relative;
+} 
+.item-left {
+  flex: 1; /* 重要 
+
+.imagesize{
+
+  display:flex;                  
+  justify-content: left;        
+}
+.imagesize image { 
+  width:150rpx;
+  height:150rpx;
+}
+  .avatar{
+  height: 100px;
+  width: 300px;
+  border-radius: 50px;
+}*/
+.wordType{
+  font-size: 60rpx;
+  color:rgb(0, 0, 0);
+  text-decoration-line: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.warp{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+navigator { 
+  overflow: hidden;
+}
+
+.list {
+  margin-bottom: 20rpx; 
+  height: 200rpx; 
+  position: relative;
+}
+
+.line{
+width: 150rpx;
+height: 2rpx;
+background-color: #D8D8D8;
+}
+
+.imagesize{
+  display:flex;                  
+  justify-content: left;        
+}
+.imagesize image { 
+  width:280rpx;
+  height:165rpx;
+  margin: 0rpx 100rpx;
+}
+  .avatar{
+  height: 300px;
+  width: 500px;
+  border-radius: 150px;
+}
+
+.infos {
+  width: 500rpx; 
+  height: 50rpx; 
+  padding: 35rpx;
+  }
+.title {
+  font-size: 24px;
+  }
+.number {
+  font-size: 16px; 
+  color: #aaa; 
+  bottom: 0;
+  }
+
+.margin1{
+  border: 8rpx groove gray;
+  margin: 10rpx;
+
 }
