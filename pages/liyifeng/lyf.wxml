@@ -15,9 +15,47 @@
 <view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <image src="/pages/liyifeng/1.jpg" style="width:375px"></image>
 <view class="cfe">
-<view >李艺丰</view>
-<view style='width:300px'>
-<view >学号：16041605</view><view>专业：计算机科学与技术</view>
+<view class="container2">
+<view class="item1">
+<image src="火.png" class="picture" mode="widthFix"></image>
+<text class="text">人气</text>
+</view>
+<view class="item1">
+<image src="赞.png" class="picture1" mode="widthFix"></image>
+<text class="text">赞</text>
+</view>
+<view class="item1">
+<image src="标签.png" class="picture" mode="widthFix"></image>
+<text class="text">好友印象</text>
+</view>
+
+</view>
+
+<view class="IndexList">
+  <view >
+   <image src="我的.png" class="telIco" mode="widthFix"></image>
+    <text >李艺丰</text>
+  </view>
+  <view>
+   <image src="名片.png" class="telIco" mode="widthFix"></image>
+    <text >16041605</text>
+  </view>
+  <view>
+   <image src="资料.png" class="telIco" mode="widthFix"></image>
+    <text >计算机科学与技术</text>
+  </view>
+  <view  bindtap="callmeTap">
+    <image src="手机.png" class="telIco" mode="widthFix"></image>
+    <text >15010837296</text>
+  </view>
+  <view>
+   <image src="邮箱.png" class="telIco" mode="widthFix"></image>
+    <text >787339520@qq.com</text>
+  </view>
+   <view>
+   <image src="地址.png" class="telIco" mode="widthFix"></image>
+    <text >北京工业大学</text>
+  </view>
 </view>
 
 
@@ -27,10 +65,11 @@
 
 <!-- <open-data type="userAvatarUrl"></open-data>
 <open-data type="userNickName"></open-data> -->
-<button
+<!-- <button
   type="primary"
   bindtap="xianshi"
->点击查看能力值</button>
+  
+>点击查看能力值</button> -->
 <view class="container1" wx:if="{{show}}">
 <text>筋力</text>
 <progress  percent="70" active />
