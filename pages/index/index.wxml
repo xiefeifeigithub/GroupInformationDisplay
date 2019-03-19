@@ -1,7 +1,11 @@
 
 <!--  -->
+<<<<<<< HEAD
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{true}}">
+=======
 <view class="wrap">
-<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{true}}">
+>>>>>>> e3e9a6ec934308258e27227d3da5c09093f5ae0d
     <block wx:for="{{imgUrls}}">
       <swiper-item>
         <image src="{{item}}" class="slide-image" />

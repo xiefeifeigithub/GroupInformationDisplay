@@ -131,7 +131,11 @@ Page({
     clearInterval(interval); // 清除setInterval
     time = 0;
   },
-
+  callmeTap: function () {
+    wx.makePhoneCall({
+      phoneNumber: '15010837296'
+    })
+  },
 
   xianshi: function () {
     var isshow = this.data.show

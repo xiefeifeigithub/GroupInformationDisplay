@@ -20,5 +20,48 @@
 .container2{
 
   display: flex;
-  justify-content: space-between;
+  width:100%;
+  justify-content: space-around;
+  align-items: baseline
+}
+.picture{
+   width: 37.5px;
+  
+}
+
+.picture1{
+   width: 45px;
+  
+}
+.IndexList{
+  width: 100%;
+  display: block;
+  margin-top: 20rpx;
+}
+
+.IndexList view{
+    border-bottom: 1px solid rgb(204, 203, 203);
+    width: 84%;
+    display:  flex;
+    margin: 0 8%;
+    color: rgb(17, 17, 17);
+    height: 100rpx;
+    line-height: 100rpx;
+    align-items: center
+}
+.telIco{
+  width: 8%;
+  margin-right: 20rpx;
+  
+}
+
+.item1{
+  display:flex;
+  flex-direction: column;
+ 
+  align-items: center
+}
+
+.text{
+  font-size:15px
 }
