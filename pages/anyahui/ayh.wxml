@@ -1,4 +1,5 @@
 <!--pages/anyahui/ayh.wxml-->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class="personal__container">
  <view class="personal__back"></view>
  <view class="personal__header">
@@ -24,4 +25,5 @@
         </view>
     </view>
   </view>
+</view>
 </view>

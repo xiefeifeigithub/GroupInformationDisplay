@@ -1,4 +1,6 @@
 <!--pages/product/product.wxml-->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
+  
 <text>\n</text>
 <view>
 <text class='wordType'>Group 2</text>
@@ -48,3 +50,4 @@
 <text>\n</text>
 <button class="button button1" bindtap='goToLiyifeng'>李艺丰</button>-->
 
+</view>
