@@ -1,3 +1,4 @@
+
 <!--pages/suoda/sd.wxml-->
 <!-- <text>pages/suoda/sd.wxml</text> -->
 <view class='content'>
@@ -30,5 +31,5 @@
     <view class='item' bindtap='exit'>
       <text class='left'>退出：</text><text class='right'>>>></text>
     </view>
-  
+ 
 </view>

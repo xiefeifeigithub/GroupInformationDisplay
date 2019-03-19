@@ -1,5 +1,5 @@
 <!--pages/liyifeng/lyf.wxml-->
-<swiper
+<!-- <swiper
   indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}"
   interval="{{interval}}"
@@ -11,32 +11,37 @@
       <image src="{{item}}" class="slide-image" style="width:375px" />
     </swiper-item>
   </block>
-</swiper>
+</swiper> -->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
+<image src="/pages/liyifeng/1.jpg" style="width:375px"></image>
 <view class="cfe">
 <view >李艺丰</view>
-<view >16041605</view>
+<view style='width:300px'>
+<view >学号：16041605</view><view>专业：计算机科学与技术</view>
+</view>
+
 
 <!-- <view wx:if="{{show}}"><image src="/images/1.jpg"></image></view> -->
 <!-- <view>{{name}}</view> -->
-<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<!-- <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
 
-<open-data type="userAvatarUrl"></open-data>
-<open-data type="userNickName"></open-data>
+<!-- <open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data> -->
 <button
   type="primary"
   bindtap="xianshi"
 >点击查看能力值</button>
 <view class="container1" wx:if="{{show}}">
 <text>筋力</text>
-<progress  percent="90" active />
+<progress  percent="70" active />
 <text>耐久</text>
-<progress  percent="90" active/>
+<progress  percent="80" active/>
 <text>敏捷</text>
 <progress percent="90"  active/>
 <text>魔力</text>
-<progress percent="90"  active/>
+<progress percent="60"  active/>
 <text>幸运</text>
-<progress percent="90"  active/>
+<progress percent="100"  active/>
 </view>
 
 
@@ -44,6 +49,7 @@
 
 
 
+</view>
 </view>
 
 
