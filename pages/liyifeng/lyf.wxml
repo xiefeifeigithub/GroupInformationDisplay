@@ -13,7 +13,7 @@
   </block>
 </swiper> -->
 <view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
-<image src="/pages/liyifeng/1.jpg" style="width:375px"></image>
+<image src="http://m.qpic.cn/psb?/V12uW2jZ46zEwz/DGwbmXooCa9*RGKkQ4KQqVzNZO2otu3kwIvHo6JKwBI!/b/dL8AAAAAAAAA&bo=vwO*AwAAAAARFyA!&rf=viewer_4" style="width:375px"></image>
 <view class="cfe">
 <view >李艺丰</view>
 <view style='width:300px'>

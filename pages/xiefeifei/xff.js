@@ -9,10 +9,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    img: "../../images/xff.jpg",
+    img: "http://m.qpic.cn/psb?/V12uW2jZ46zEwz/fbmvvuK4JX2VC5b2Yi75jiwnex5.fyXtxUxhiy3Xsdc!/b/dL8AAAAAAAAA&bo=wAPAAwAAAAARFyA!&rf=viewer_4",
     name: "谢飞飞",
+    num: "16041527",
+    classnum:"160701",
+    college:"信息学部",
     intro: "新时代的搬砖匠",
-    contab: "联系方式",
+    contab: "个人信息",
     address: "北京市朝阳区平乐园100号",
     mobile: "18911780647",
     email: "xiefei741000@outlook.com"

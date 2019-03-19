@@ -1,5 +1,6 @@
 
 <!--  -->
+<view class="wrap">
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
@@ -34,4 +35,7 @@
     </view>
 
 </block>
+</view>
+
+
 </view>
