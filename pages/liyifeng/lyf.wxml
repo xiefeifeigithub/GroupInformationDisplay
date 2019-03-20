@@ -34,27 +34,27 @@
 <view class="IndexList">
   <view >
    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/U3Q1DZQxFzzT2gGbtlXv9GMCw2INcObX0ud3BYy21gw!/r/dL8AAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >李艺丰</text>
+    <text selectable='{{true}}'>李艺丰</text>
   </view>
   <view>
    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/kHVGKHmJTBISvMmVlfkUPle*0gKC6jBI.vN1VXGqftE!/r/dLkAAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >16041605</text>
+    <text selectable='{{true}}'>16041605</text>
   </view>
   <view>
    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/Q4oWEAsRdrwUqc9NhTPioscamiEXQwAgkfz62OEmMCw!/r/dLYAAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >计算机科学与技术</text>
+    <text selectable='{{true}}' >计算机科学与技术</text>
   </view>
   <view  bindtap="callmeTap">
     <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/egtNftrSyJdOLtZCb4xGWTAHd6vGwFV.kGNskkJDGhY!/r/dDEBAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >15010837296</text>
+    <text selectable='{{true}}'>15010837296</text>
   </view>
   <view>
    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/CrJRg8iNFxvwan18od*F7eO7OWmCRzg.3O1yl*AGPGQ!/r/dMAAAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >787339520@qq.com</text>
+    <text selectable='{{true}}'>787339520@qq.com</text>
   </view>
    <view>
    <image src="http://r.photo.store.qq.com/psb?/V14Ac3ZF1Ku3Vf/5dSWoYGeWsOt4UZEL1IR3eKQLjOa05WC0sOoJ5CP2qs!/r/dDYBAAAAAAAA" class="telIco" mode="widthFix"></image>
-    <text >北京工业大学</text>
+    <text selectable='{{true}}'>北京工业大学</text>
   </view>
 </view>
 

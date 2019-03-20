@@ -1,6 +1,7 @@
 // pages/suoda/sd.js
 var time = 0;
-var touchDot = 0;//触摸时的原点
+var touchDot = 0;
+var touchDoty = 0;//触摸时的原点
 var interval = "";
 var flag_hd = true;
 Page({
@@ -75,7 +76,8 @@ Page({
 
   },
   touchStart: function (e) {
-    touchDot = e.touches[0].pageX; // 获取触摸时的原点
+    touchDot = e.touches[0].pageX;
+    touchDoty = e.touches[0].pageY; // 获取触摸时的原点
     // 使用js计时器记录时间    
     interval = setInterval(function () {
       time++;
@@ -84,6 +86,7 @@ Page({
   // 触摸结束事件
   touchEnd: function (e) {
     var touchMove = e.changedTouches[0].pageX;
+    var touchMovey = e.changedTouches[0].pageY;
     // 向左滑动   
     // if (touchMove - touchDot <= -40 && time < 10 && flag_hd == true) {
     //   flag_hd = false;
@@ -94,6 +97,7 @@ Page({
     //   })
     // }
     // 向右滑动   
+    if (touchMovey - touchDoty <= 40 && touchMovey - touchDoty >= -40 && time < 10 && flag_hd == true) {
     if (touchMove - touchDot >= 40 && time < 10 && flag_hd == true) {
       flag_hd = false;
       //执行切换页面的方法
@@ -101,6 +105,7 @@ Page({
       wx.switchTab({
         url: '../product/product'
       })
+    }
     }
     clearInterval(interval); // 清除setInterval
     time = 0;
