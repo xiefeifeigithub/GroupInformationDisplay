@@ -1,8 +1,9 @@
 {
 
   "pages": [   
-    "pages/index/index",  
     "pages/product/product",
+    "pages/index/index",  
+    
     "pages/contact/contact",
     "pages/gaojingyi/gjy",
     "pages/anyahui/ayh",

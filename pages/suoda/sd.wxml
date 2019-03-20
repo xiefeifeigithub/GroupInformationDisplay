@@ -1,5 +1,4 @@
-<!--pages/suoda/sd.wxml-->
-<!-- <text>pages/suoda/sd.wxml</text> -->
+<view class="class_first" bindtouchstart="touchStart" bindtouchend="touchEnd" style="height:100vh">
 <view class='content'>
   <view class='nav'>
     <view class="about-wei">
@@ -23,4 +22,5 @@
     <view class='item'>
       <text class='left'>学院：</text><text class='right'>计算机学院{{myinfo.departmentname}}</text>
     </view>
+  </view>
 </view>

@@ -32,22 +32,4 @@
 <!--循环输出列表  end-->
 </view>
 
-
-<!--<button class="button button1" bindtap='goToXiefeifei'>谢飞飞
-<view class='item-left flex-wrp-row'>     
-<view class='imagesize'>
-    <image src="gjy.jpg" mode='aspectFill' class='avatar'>  
-</image>
-</view>    
- </view>
-</button>
-<text>\n</text>
-<button class="button button1" bindtap='goToGaojingyi'>高婧怡</button>
-<text>\n</text>
-<button class="button button1" bindtap='goToAnyahui'>安亚辉</button>
-<text>\n</text>
-<button class="button button1" bindtap='goToSuoda'>索达</button>
-<text>\n</text>
-<button class="button button1" bindtap='goToLiyifeng'>李艺丰</button>-->
-
 </view>
