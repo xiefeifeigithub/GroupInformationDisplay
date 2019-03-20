@@ -92,15 +92,15 @@ Page({
       })
     }
     // 向右滑动   
-    // if (touchMove - touchDot >= 40 && time < 10 && flag_hd == true) {
-    //   flag_hd = false;
-    //   //执行切换页面的方法
-    //   console.log("向左滑动");
-    //   wx.switchTab({
-    //     url: '../contact/contact'
-    //   })
+    if (touchMove - touchDot >= 40 && time < 10 && flag_hd == true) {
+    flag_hd = false;
+    //执行切换页面的方法
+    console.log("向左滑动");
+    wx.switchTab({
+     url: '../contact/contact'
+    })
         
-    // }
+     }
     clearInterval(interval); // 清除setInterval
     time = 0;
   }
